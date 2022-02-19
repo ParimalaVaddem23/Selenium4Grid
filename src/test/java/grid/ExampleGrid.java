@@ -33,7 +33,7 @@ public class ExampleGrid {
 			//System.out.println("*****");
 		}
 		
-		driver.set(new RemoteWebDriver(new URL("http://13.233.83.30:4444"), cap));
+		driver.set(new RemoteWebDriver(new URL("http://3.111.168.223:4444/"), cap));
 		//WebDriver driver = new RemoteWebDriver(new URL("http://52.66.209.171:4444/"), cap); 
 		getDriver().get("http://google.com");
 		getDriver().findElement(By.name("q")).sendKeys("Hello Grid ..."+browser);
